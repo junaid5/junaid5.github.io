@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: montserrat;
+}
+
+nav{
+    background: black;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+body #imag {
+    background-image: url("./pexels-maxime-francis-2246476.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    background-position: bottom center;
+}
+
+body #imaga {
+    background-image: url("./pexels-andy-vu-3244513.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    background-position: bottom center;
+}
+
+#imag .content {
+    text-align: center;
+    position: relative;
+    color: white;
+    top: 200px;
+    width: 550px;
+    height: 250px;
+    margin: 0 auto;
+    border: 10px solid white;
+    font-weight: bold;
+    font-size: large;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+}
+
+#imag .content h1{
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#imag .content p{
+    font-size: larger;
+    letter-spacing: 0.25px;
+}
+#imaga .contents {
+    text-align: center;
+    position: relative;
+    color: white;
+    top: 100px;
+    width: 900px;
+    height: 430px;
+    margin: 0 auto;
+    border: 3px solid white;
+}
+
+#imaga .contents h1{
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#imaga .contents p{
+    font-size: larger;
+    word-spacing: 4px;
+}
+
+body #images {
+    display: inline-block;
+}
+.bod{
+    background-color: lightblue;
+}
+body #images #img1{
+    background-image: url("https://www.pngkit.com/png/detail/46-462685_people-icons-png-inquiry-icon.png");
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    background-position: center;
+    margin-top: 0px;
+    margin-left: 150px;
+    object-fit: fill;
+    display: inline-block;
+}
+
+body #images #img2{
+    background-image: url("https://www.pngkit.com/png/detail/46-462685_people-icons-png-inquiry-icon.png");
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    background-position: center;
+    margin-top: 0px;
+    margin-left: 200px;
+    object-fit: fill;
+    display: inline-block;
+}
+
+body #images #img3{
+    background-image: url("https://www.pngkit.com/png/detail/46-462685_people-icons-png-inquiry-icon.png");
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    background-position: center;
+    margin-top: 0px;
+    margin-left: 250px;
+    object-fit: fill;
+    display: inline-block;
+}
+
+body #images h1{
+    font-size: 35px;
+    letter-spacing: 5px;
+    word-spacing: 9px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align:center;
+}
+
+body .image{
+    background-image: url("./pexels-jot-2179483.jpg");
+    background-size: cover;
+    height: 660px;
+    width: 100%;
+    background-position: bottom center;
+}
+
+body .image .social{
+    text-align: center;
+    position: relative;
+    color: white;
+    top: 200px;
+    width: 500px;
+    height: 250px;
+    margin: 0 auto;
+    border: 3px solid white;
+}
+
+body .image .social h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.image .social h3{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.image .social .insta{
+    color: rgb(202, 30, 68);
+}
+
+.image .social .tele{
+    color:rgb(23, 119, 230);
+}
